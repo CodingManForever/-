@@ -7,6 +7,10 @@
 #include <conio>
 using namespace std;
 
+/*******************全局变量*****************/
+#define MAX_N 1000000
+vector<string> str[1000000];	//动态字符串数组
+int i=0;
 
 /*
 负责人：Master
@@ -72,15 +76,19 @@ public:
 */
 
 /*
-登陆函数 
+登陆函数 具体可以看下这篇博客
+https://blog.csdn.net/qq_40663357/article/details/86663598?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166878686716782412544197%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166878686716782412544197&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-86663598-null-null.142^v65^control,201^v3^control_1,213^v2^t3_esquery_v2&utm_term=c%E8%AF%AD%E8%A8%80%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%B3%BB%E7%BB%9F&spm=1018.2226.3001.4187
 负责人：寒冰
 
 
 */
-/*
-注册函数
-负责人：寒冰
 
+/*
+注册函数 View_Register
+负责人：寒冰
+	void View_Register()
+	{
+	}
 */
 
 /*
@@ -122,10 +130,10 @@ public:
 返回：无
 	void Interface_Bace::Learning_module()
 	{
-		//初始化鼠标对象
+		//初始化鼠标对象							
 		ExMessage ex = getmessage(EM_MOUSE);		
 		while(true)
-		{
+		{			
 			if(鼠标左键点击==笔记本)
 				返回笔记本模块
 			if(鼠标左键点击==记事本)
@@ -137,12 +145,18 @@ public:
 		}
 	}
 */
-
-
+		
 /*
-
-
+鼠标接收范围函数
+负责人:twelve
+定义一个内联函数(为啥要顶一个内联函数自己查一下原因)
+inline bool JudegView(short mouse_x,short mouse_y,int left,int top,int right,int bottom){
+	if(鼠标x坐标>=矩形左侧&&鼠标x坐标<=矩形右侧&&鼠标y坐标<=下侧&&鼠标y坐标>=上侧)
+		返回真
+	否则 返回假
+}
 */
+
 /*
 切换至待办事项界面的函数 
 负责人：正负
@@ -157,16 +171,19 @@ public:
 */
 
 /*
-代办界面 命名	
+实现整个代办界面的功能 	
 负责人：正负
+	
+	
+	
 	
 */
 
 
 /*
-笔记本中各类操作的函数
+笔记本中对文字操作的函数
 负责人：Master
-
+	
 */
 
 /*
@@ -213,6 +230,9 @@ private:
 };
 
 */
+
+
+
 
 /*
 计算器模块
