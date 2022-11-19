@@ -26,6 +26,7 @@ public:
 	void login_interface();		//登陆界面
 	void opening_menu();		//开始菜单
 	void Learning_module();		//进入学习模块
+	void notebook();			//进入笔记本
 	void Entertainment_module();//进入娱乐模块
 	void Notepad();				//进入记事本
 	void Todolist_Interface();	//切换待办界面按钮
