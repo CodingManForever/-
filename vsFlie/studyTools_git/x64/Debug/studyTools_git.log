@@ -1,0 +1,13 @@
+﻿  studyTools.cpp
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(128,17): error C2144: 语法错误:“short”的前面应有“)”
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(128,6): error C2660: “JudegView”: 函数不接受 0 个参数
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(91,13): message : 参见“JudegView”的声明
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(128,32): error C2062: 意外的类型“short”
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(128,6): error C2059: 语法错误:“)”
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(128,93): error C2059: 语法错误:“)”
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(129,3): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(130,12): error C2059: 语法错误:“)”
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(143,13): error C2065: “notbook”: 未声明的标识符
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(147,13): error C3861: “Notepad”: 找不到标识符
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(151,13): error C3861: “Learning_clock”: 找不到标识符
+E:\git\图灵院第二次项目\Learn-daily\vsFlie\studyTools_git\studyTools.cpp(155,13): error C3861: “Calculator_moudule”: 找不到标识符
