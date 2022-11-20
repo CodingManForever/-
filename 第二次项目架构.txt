@@ -9,7 +9,7 @@ using namespace std;
 
 /*******************全局变量*****************/
 #define MAX_N 1000000
-vector<string> str[1000000];	//定义动态字符串数组
+vector<string> str;	//定义动态字符串数组
 int i=0;
 
 /*
@@ -26,7 +26,6 @@ public:
 	void login_interface();		//登陆界面
 	void opening_menu();		//开始菜单
 	void Learning_module();		//进入学习模块
-	void notebook();			//进入笔记本
 	void Entertainment_module();//进入娱乐模块
 	void Notepad();				//进入记事本
 	void Todolist_Interface();	//切换待办界面按钮
@@ -184,6 +183,12 @@ inline bool JudegView(short mouse_x,short mouse_y,int left,int top,int right,int
 	
 */
 
+/*
+学习钟各功能
+负责人：正负
+
+
+*/
 
 /*
 笔记本中对文字操作的函数
